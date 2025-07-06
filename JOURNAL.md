@@ -55,7 +55,9 @@ https://lasertree.com/products/osram-plpt9-450lb_e-450nm-5w-blue-laser-diode
 https://www.digikey.ca/en/products/detail/ams-osram-usa-inc/PLPT9-450LB-E/14552504
 https://www.aliexpress.com/item/1005009103059423.html
 
-driver (5W output): https://www.aliexpress.com/item/1005006993930009.html
+driver (5W output): 
+https://www.aliexpress.com/item/1005006993930009.html
+https://www.aliexpress.com/item/1005005905789715.html
 
 battery: https://www.aliexpress.com/item/1005008360339464.html
 
@@ -71,7 +73,7 @@ pcb stuff:
 
 (no) type c charger with protection: https://www.aliexpress.com/item/1005004427739715.html
 
-type c 3S module IP2369: https://www.aliexpress.com/item/1005008780308234.html
+type c 3S module IP2369: https://www.aliexpress.com/item/1005008766304319
 
 microcontroller: https://www.aliexpress.com/item/1005002651134172.html
 
@@ -86,21 +88,40 @@ buzzer: https://www.aliexpress.com/item/1005006201550296.html
 buttons: https://www.aliexpress.com/item/1005008024309525.html
 
 BOM v1:
-PLPT9 450LB_E 447nm 5W Blue Laser Diode 9mm - 38
-12V 40W Blue Laser Driver Board for CNC Laser Engraving Cutting Module Head PWM/TTL 5W 5500mw 6W Adapter Board - 22
-G2 Focal Lens Collimation Collimator Glass - 9
-3x 18650 3500mAh 3.7V 100% Genuine INR18650-35E Rechargeable Lithium Battery - 33
-IP2369 45W 2S 3S 4S 5S 6S Lithium Battery Charging Discharger Module Li-ion - 9
-STM32F103C8T6 - 1
-0.91 Inch 128x32 IIC I2C White / Blue OLED LCD Display DIY Module - 3
-360 Degree Rotary Encoder EC11 - 2
-GY-521 MPU-6050 module - 3
-Active Buzzer - 2
-Metal Push Button Switch Momentary - 4
+PLPT9 450LB_E 447nm 5W Blue Laser Diode 9mm - 48 (https://www.aliexpress.com/item/1005007203647604.html)
+12V 40W Blue Laser Driver Board for CNC Laser Engraving Cutting Module Head PWM/TTL 5W 5500mw 6W Adapter Board - 22 (https://www.aliexpress.com/item/1005006993930009.html)
+G2 Focal Lens Collimation Collimator Glass - 9 (https://www.aliexpress.com/item/1005006749216766.html)
+3x 18650 3500mAh 3.7V 100% Genuine INR18650-35E Rechargeable Lithium Battery - 33 (https://www.aliexpress.com/item/1005008360339464.html)
+IP2369 45W 2S 3S 4S 5S 6S Lithium Battery Charging Discharger Module Li-ion - 9 (https://www.aliexpress.com/item/1005008766304319)
+STM32F103C8T6 - 1 (https://www.aliexpress.com/item/1005002651134172.html)
+0.91 Inch 128x32 IIC I2C White / Blue OLED LCD Display DIY Module - 3 (https://www.aliexpress.com/item/1005008640132638.html)
+360 Degree Rotary Encoder EC11 - 2 (https://www.aliexpress.com/item/1005005983134515.html)
+GY-521 MPU-6050 module - 3 (https://www.aliexpress.com/item/1005003701133575.html)
+Active Buzzer - 2 (https://www.aliexpress.com/item/1005006201550296.html)
+Metal Push Button Switch Momentary - 4 (https://www.aliexpress.com/item/1005008024309525.html)
 
 chatgpt says this is good so we up !!
 
-total: $130
+total: $140
 
 +3 hours
 
+## day 3: sketch + rough cad
+july 2nd/3rd
+
+basing this off of the pine64 pinecil bc i like the design and also have one
+
+the biggest component is the diode driver, at 40mm by 40mm which is unfortunate bc thats way too big to look like the pinecil
+big pivot: am going to put everything into pcb
+
+
+all parts:
+![schem 1](assets\image.png)
+
+connected some stuff
+![schem 2](assets\image2.png)
+
++3 hours
+
+time to fix errors
+![schem 3](assets\image.png)
